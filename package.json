@@ -1,0 +1,14 @@
+{
+  "name": "license-tool",
+  "version": "1.0.0",
+  "description": "Aimbot Android 授权码生成器（含网页版 + Node.js CLI）",
+  "private": true,
+  "scripts": {
+    "build": "node obfuscate.js",
+    "test": "node test-obfuscated.js",
+    "obfuscate": "node obfuscate.js"
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^4.1.1"
+  }
+}
